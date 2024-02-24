@@ -1,0 +1,1 @@
+File structure guide: https://github.com/reZach/secure-electron-template/tree/master

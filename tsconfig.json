@@ -16,5 +16,5 @@
     },
     "jsx": "react-jsx"
   },
-  "include": ["src/**/*"]
+  "include": ["src/**/*", "app/src/renderer.ts", "app/src/index.ts", "app/electron/preload.ts", "app/electron/app.tsx"]
 }

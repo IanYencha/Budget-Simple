@@ -26,10 +26,17 @@
  * ```
  */
 
+import React from 'react';
+import {createRoot} from 'react-dom/client';
+import './index.css';
+import App from './containers/App/App';
+import './containers/App/App';
+
 import './index.css';
 
 console.log('👋 This message is being logged by "renderer.js", included via webpack');
 
+const domNode = document.getElementById('root') !; // Indicate not null
+const root = createRoot(domNode);
 
-// Add this to the end of the existing file
-import '../electron/app';
+root.render(<App />);

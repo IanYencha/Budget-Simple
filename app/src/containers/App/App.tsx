@@ -7,6 +7,7 @@ class App extends Component {
         return (
             <div className="AppWrapper">
                 {/* Put component calls here */}
+                <p>This is the main app container in a div!</p>
             </div>
         )
     }

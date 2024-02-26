@@ -1,0 +1,12 @@
+.inLine {
+    clear: both;
+
+    .selected{
+        font-weight: bold;   
+        color: green;
+    }
+
+    .unselected {
+        color: gray;
+    }
+}

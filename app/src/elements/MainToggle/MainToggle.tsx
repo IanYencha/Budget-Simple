@@ -1,4 +1,6 @@
 import React from "react";
+import './MainToggle.scss';
+
 
 /**
  * 
@@ -6,7 +8,7 @@ import React from "react";
  * 
  */
 
-const MainToggle = ({selected}) => {
+const MainToggle = (selected: boolean) => {
     return(
         <div className="inLine">
             <button className={selected ? "selected" : "unselected"}>Budget</button>

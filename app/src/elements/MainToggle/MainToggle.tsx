@@ -17,4 +17,4 @@ const MainToggle = (selected: boolean) => {
     )
 }
 
-export default MainToggle
+export default MainToggle 
